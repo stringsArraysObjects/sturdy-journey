@@ -1,4 +1,4 @@
-
+//7 kyu 
 // PARAMETERS: Write a function that takes an array of strings as an argument
 // RESULT: Returns a sorted array containing the same strings, ordered from shortest to longest.
 // EXAMPLE: ["Telescopes", "Glasses", "Eyes", "Monocles"]
