@@ -40,7 +40,8 @@ class Result {
      */
 
     public static String counterGame(long n) {
-    
-      double num = n;
-           return Math.floor(Math.log(num)) % 2 == 1 ? "Richard" : "Louise";
-    }
+      
+    double num = n;
+           return Math.floor(Math.log(num)/Math.log(2)) % 2 == 1 ? "Louise" : "Richard";
+}
+}
