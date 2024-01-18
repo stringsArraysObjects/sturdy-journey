@@ -16,3 +16,5 @@ function stringy(size) {
   }
   return result;
 } 
+//anouther solution 2nd most clever, not mine
+const stringy = size => "10".repeat(size).slice(0,size);
