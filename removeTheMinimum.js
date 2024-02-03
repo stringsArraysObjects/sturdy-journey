@@ -9,3 +9,8 @@
 //              value.
 //EXAMPLE:      Input: [2,2,1,2,1], output = [2,2,2,1]
 //
+
+function removeSmallest(numbers) {
+    let indexOfMin = numbers.indexOf(Math.min(...numbers));
+    return [...numbers.slice(0, indexOfMin), ...numbers.slice(indexOfMin + 1)];
+  }
