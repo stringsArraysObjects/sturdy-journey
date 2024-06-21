@@ -27,6 +27,7 @@ function persistence(num) {
     return persistenceCount;
 }
 
+
 //voted most clever, I like how they used the iterative map() method on the Number function that is creative.
 function persistence(num) {
     var times = 0;
